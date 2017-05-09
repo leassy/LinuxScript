@@ -43,15 +43,22 @@ Enjoy it!
  
 
 可以查看 Shadowsocks-go 进程是否已经启动。
+
 本脚本安装完成后，已将 shadowsocks-go 加入开机自启动。
 
 使用命令：
+
 启动：/etc/init.d/shadowsocks start
+
 停止：/etc/init.d/shadowsocks stop
+
 重启：/etc/init.d/shadowsocks restart
+
 状态：/etc/init.d/shadowsocks status
 
+
 多用户多端口配置文件示例：
+
 配置文件路径：/etc/shadowsocks/config.json
 
 {
